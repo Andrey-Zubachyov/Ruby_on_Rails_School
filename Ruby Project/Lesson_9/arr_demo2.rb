@@ -4,7 +4,7 @@ loop do
 print 'Enter your favorite color:'
 color = gets.strip
 
-puts 'you can always stop recording comand \'stop\''
+puts 'You can always stop recording comand \'stop\''
 
 
 
