@@ -14,7 +14,8 @@ hh[name] = phone
 
 end
 
-puts hh
+hh.each {|key, value| puts "Name:#{key}.. phone:#{value}"}
+
 
 gets
 
