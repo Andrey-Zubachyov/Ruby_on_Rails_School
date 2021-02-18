@@ -38,25 +38,26 @@ end
 gets
 
 =begin
+
 @hh = {}
 
+        # ¬¥â®¤ á ¯ à ¬¥âà®¬ åíè 
+	def get options
+    		@hh[options[:name]] = options[:nane]
+    		@hh[options[:age]] = options[:age]
+    		@hh[options[:phone]] = options[:phone]
+	end
 
-def get options
-    @hh[options[:name]] = options[:nane]
-    @hh[options[:age]] = options[:age]
-    @hh[options[:phone]] = options[:phone]
-end
 
 
+	puts 'Enter name: '
+	name = gets
 
-puts 'Enter name: '
-name = gets
+	puts 'Enter age: '
 
-puts 'Enter age: '
+	age = gets.to_i
 
-age = gets.to_i
-
-add = {:name => name, :age => age}
+	add = {:name => name, :age => age}
 
 get add
 
