@@ -1,6 +1,8 @@
 #encoding; cp866
 class Book
         
+	attr_reader :last_person
+
 	def initialize 
 	@hh = {}
 	@last_person = ''
@@ -21,11 +23,7 @@ class Book
 		end
 	end
 	
-	def last_person
-		puts "Last person: #{@last_person}"
-	end
-        	
-	
+		
 end
 
 
@@ -49,7 +47,7 @@ end
 
 add_book.show_hash
 
-add_book.last_person
+puts "Last person: #{add_book.last_person}"
 
 
 gets
