@@ -1,5 +1,5 @@
 class Album
-	attr_accessor :name, :songs
+	attr_accessor :songs, :name
 
 	def initialize name
 	@name = name
@@ -23,10 +23,10 @@ class Song
 
 end
 
-album = Album.new '11111111'
+album = Album.new 'The show must go on'
 
-song1 = Song.new '1q1q1q1', 12.3
-song2 = Song.new '2w2w2w2', 13.5
+song1 = Song.new 'Slave to the Rhythm', 12.3
+song2 = Song.new 'Youll See', 13.5
 
 album.add_song song1
 album.add_song song2
@@ -40,8 +40,8 @@ album.hash.each do |x|
 end
 =end
 
-puts album.songs[1].name
-puts album.songs[1].duration
+puts album.songs[0].name
+puts album.songs[0].duration
 
 gets
 
