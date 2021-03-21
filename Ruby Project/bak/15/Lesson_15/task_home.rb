@@ -53,7 +53,7 @@ song2 = Song.new 'Come, Heavy Sleep', 3.46
 album1.add_song song1
 album1.add_song song2
 
-puts artist.name.inspect
+puts "Artist: #{artist.name}"
 
 #show all
 artist.albums.each do |album|
