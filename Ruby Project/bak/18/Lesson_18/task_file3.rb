@@ -1,0 +1,19 @@
+#encoding: cp866
+puts "You'r password weak (γο§Ά¨¬λ©)? You'r password isn't weak?: "
+my_password = gets.strip
+
+input = File.open('.\passwords.txt', 'r')
+
+while line = input.gets
+
+	line.strip!
+
+	if my_password == line || line.include?(my_password)
+		puts "You'r password weak (γο§Ά¨¬λ©)!"
+    exit
+  end
+
+end
+
+puts "You'r password isn't weak?"
+
