@@ -18,5 +18,5 @@ print 'Enter your name: '
 name = gets
 puts 'Hello ' + name
 
-puts 'Prjgram finished. Press Enter to exit'
+puts 'Program finished. Press Enter to exit'
 gets
