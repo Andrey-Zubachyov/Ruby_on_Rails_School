@@ -1,6 +1,6 @@
 puts "Enter value: "
 a = gets.chomp
 
-puts a * a
+puts a + a
 
 #=> 1010 (string)
