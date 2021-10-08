@@ -4,6 +4,6 @@ x = gets.to_i
 puts "Enter string: "
 str = gets.chomp
 
-x.times { |i| puts i.to_s + str} #|| => pipe => труба
+x.times { |i| puts i.to_s + str} #|| => pipe => С‚СЂСѓР±С‹
 
 gets
