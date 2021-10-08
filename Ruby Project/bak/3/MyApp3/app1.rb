@@ -1,6 +1,6 @@
 puts 'Enter your name: '
 name = gets.strip.capitalize
-#\t => символ табуляции использован для выравнивания
+#\t => СЃРёРјРІРѕР»СЊРЅС‹Р№ РєР»Р°СЃ С‚Р°Р±СѓР»СЏС†РёРё
 puts "Good afternoon\t\t#{name}"
 
 puts "Your name has length\t#{name.length} of letters"
