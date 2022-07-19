@@ -5,7 +5,7 @@ salary = 3000
 puts 'Hello Ruby'
 
 puts 'Salary'
-puts salary  #¨§¬¥­¥­®
+puts salary  # Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¾
 
 puts 'Tax'
 puts 0.40
