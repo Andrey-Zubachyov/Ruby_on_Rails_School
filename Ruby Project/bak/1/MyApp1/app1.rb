@@ -5,7 +5,7 @@ salary = 3000
 puts 'Hello Ruby'
 
 puts 'Salary'
-puts salary  # изменено
+puts salary  # changed
 
 puts 'Tax'
 puts 0.40
