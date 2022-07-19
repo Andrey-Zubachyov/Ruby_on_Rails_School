@@ -1,9 +1,11 @@
+#encoding: cp866
+
 salary = 3000
 
 puts 'Hello Ruby'
 
 puts 'Salary'
-puts salary  #изменено
+puts salary  #
 
 puts 'Tax'
 puts 0.40
