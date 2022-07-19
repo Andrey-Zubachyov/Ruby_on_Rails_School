@@ -1,4 +1,4 @@
-#encoding: cp866
+# encoding: cp866
 
 salary = 3000
 
